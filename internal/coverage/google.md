@@ -2,12 +2,12 @@
 
 | Terraform  | Coverage % | Resources | Total Resources |
 |------------|------------|-----------|-----------------|
-| Resources  | 82.15      |  1123       |  1367            |
-| Datasource | 96.79      |   453       |   468             |
+| Resources  | 82.03      |  1123       |  1369            |
+| Datasource | 96.59      |   453       |   469             |
 
 ## Deprecated
 
-16 resources and 5 datasources are flagged as deprecated in provider schema v8.4.0. Users pinned to an older provider major may already be affected when they upgrade.
+16 resources and 5 datasources are flagged as deprecated in provider schema v8.5.0. Users pinned to an older provider major may already be affected when they upgrade.
 
 ### Deprecated Resources
 
@@ -269,6 +269,7 @@
 ./resource.ps1 google_oracle_database_goldengate_connection_assignment
 ./resource.ps1 google_oracle_database_goldengate_deployment
 ./resource.ps1 google_redis_cluster_acl_policy
+./resource.ps1 google_resource_manager_capability_config
 ./resource.ps1 google_scc_notification_service_account
 ./resource.ps1 google_scc_v2_organization_source
 ./resource.ps1 google_service_networking_peered_dns_domain
@@ -281,6 +282,7 @@
 ./resource.ps1 google_vertex_ai_evaluation_metric
 ./resource.ps1 google_vertex_ai_persistent_resource
 ./resource.ps1 google_vertex_ai_rag_corpus
+./resource.ps1 google_vertex_ai_semantic_governance_policy
 ./resource.ps1 google_vertex_ai_semantic_governance_policy_engine
 ./resource.ps1 google_vertex_ai_tensorboard_experiment
 ./resource.ps1 google_vertex_ai_tensorboard_run
@@ -297,6 +299,7 @@
 ./resource.ps1 google_iap_agent_registry_endpoint_iam_policy -type data
 ./resource.ps1 google_iap_agent_registry_mcp_server_iam_policy -type data
 ./resource.ps1 google_memorystore_acl_policy -type data
+./resource.ps1 google_network_services_gateway -type data
 ./resource.ps1 google_oracle_database_exascale_db_storage_vault -type data
 ./resource.ps1 google_oracle_database_exascale_db_storage_vaults -type data
 ./resource.ps1 google_redis_cluster_acl_policy -type data
